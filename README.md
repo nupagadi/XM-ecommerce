@@ -2,6 +2,9 @@
 
 Unfortunately, I had only one day for the assignment due to some personal reasons. I didn't have a chance to do profiling and elaborate testing. So probably there are bugs for some edge cases.
 
+## Assignment
+The assignment description is in CppEcommerce.pdf.
+
 ## Build and Run
 g++ -g0 -O3 test.cpp -o ecommerce && ./ecommerce
 
