@@ -47,7 +47,6 @@ public:
 
 				if (existingCacheItem->isReady())
 					return existingCacheItem->getData();
-				// TODO: check if it is only called when fulfilled
 				else if (!existingCacheItem->isWaiting())
 				{
 					// So not to get shared state every time.
